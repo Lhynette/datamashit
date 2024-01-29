@@ -1,0 +1,40 @@
+*{
+    text-decoration: none;
+}
+
+
+
+body {
+    background-image: url('body-background.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    /* Additional CSS properties for background styling can be added here */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.loginbox{
+    background: #231F20;
+    width:500px;
+    padding: 5rem;
+    border-radius: 10px;
+    min-height: auto;
+    position: center;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.icon img{
+    height: 100px;
+    width: 125px;
+}
